@@ -1,0 +1,104 @@
+h1 {
+  color: #fff;
+  font-size: 64px;
+  text-align: center;
+  line-height: 200px;
+}
+
+.container {
+  max-width: 90%;
+  margin: 50px auto;
+}
+
+.main {
+  width: 100%;
+  vertical-align: top;
+  display: inline-block;
+  background: #fff;
+  margin-left: 3%;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.main__header {
+  padding: 20px;
+  border-bottom: 1px solid #f0f1f2;
+}
+
+.main__content {
+  padding: 20px 20px;
+}
+
+.main__settings-form {
+  max-width: 100%;
+  display: block;
+  /* margin: 0 auto; */
+}
+
+.main__input-label {
+  font-size: 80%;
+  color: #c4c1c9;
+  display: block;
+  margin: 5px 5px 5px 5px;
+}
+
+.main__input {
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #f1f3f5;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 15px;
+  border-radius: 3px;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+}
+.main__input:focus {
+  border: 1px solid #348aa7;
+  transition: all 0.3s ease;
+}
+
+.btn {
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  outline: none;
+  padding: 15px 25px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.main__save-button {
+  color: #fff;
+  background-color: #8ed081;
+}
+.main__save-button:hover {
+  background-color: #6dc25c;
+  cursor: pointer;
+}
+
+.main__cancel-button {
+  color: #fff;
+  background: #ccc;
+}
+.main__cancel-button:hover {
+  background-color: #b3b3b3;
+  cursor: pointer;
+}
+
+@media (max-width: 764px) {
+  .main {
+    width: 100%;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+}
+
+.default-payment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
